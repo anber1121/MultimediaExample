@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "voice_change-Debug-arm64-v8a": {
+      "artifactName": "voice_change",
+      "buildCommand": "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/.cxx/cmake/debug/arm64-v8a\" voice_change",
+      "abi": "arm64-v8a",
+      "output": "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/build/intermediates/cmake/debug/obj/arm64-v8a/libvoice_change.so",
+      "runtimeFiles": [
+        "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/src/main/cpp/../jniLibs/arm64-v8a/libfmod.so",
+        "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/src/main/cpp/../jniLibs/arm64-v8a/libfmodL.so"
+      ]
+    }
+  }
+}

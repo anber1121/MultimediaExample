@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="title_bar_height">42dp</dimen>
+
+    <dimen name="ui_radius">8dp</dimen>
+    <dimen name="ui_radius2">10dp</dimen>
+    <dimen name="ui_width_height_square">168dp</dimen>
+    <dimen name="ui_shadow_height">35dp</dimen>
+    <dimen name="user_width_height_square">123dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="customactivityoncrash_activity_horizontal_margin">16dp</dimen>
+    <dimen name="customactivityoncrash_activity_vertical_margin">16dp</dimen>
+
+    <dimen name="customactivityoncrash_error_activity_error_details_text_size">12sp</dimen>
+
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_7">7dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_13">13dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_26">26dp</dimen>
+    <dimen name="dp_27">27dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_37">37dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_44">44dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_52">52dp</dimen>
+    <dimen name="dp_53">53dp</dimen>
+    <dimen name="dp_58">58dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_61">61dp</dimen>
+    <dimen name="dp_62">62dp</dimen>
+    <dimen name="dp_85">85dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_105">105dp</dimen>
+    <dimen name="dp_216">216dp</dimen>
+
+    <dimen name="sp10">10sp</dimen>
+    <dimen name="sp11">11sp</dimen>
+    <dimen name="sp13">13sp</dimen>
+    <dimen name="sp14">14sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="sp18">18sp</dimen>
+
+    <!--- 云视频首页 -->
+    <dimen name="hw_home_22sp">22sp</dimen>
+    <dimen name="hw_home_margin_start_12">12dp</dimen>
+    <dimen name="hw_home_margin_top_95">95dp</dimen>
+    <dimen name="hw_home_live_12sp">12sp</dimen>
+    <dimen name="hw_home_live_14sp">14sp</dimen>
+    <dimen name="hw_home_live_margin_top_76">76dp</dimen>
+
+    <dimen name="weplayer_controller_height">46dp</dimen>
+    <dimen name="weplayer_controller_icon_padding">12dp</dimen>
+    <dimen name="weplayer_play_btn_size">50dp</dimen>
+    <dimen name="sprite_preview_radius">5dp</dimen>
+
+    <dimen name="video_8">8dp</dimen>
+    <dimen name="video_10">10dp</dimen>
+    <dimen name="video_12">12dp</dimen>
+    <dimen name="video_13">13dp</dimen>
+    <dimen name="video_14">14dp</dimen>
+    <dimen name="video_16">16dp</dimen>
+    <dimen name="video_18">18dp</dimen>
+    <dimen name="video_20">20dp</dimen>
+    <dimen name="video_21">21dp</dimen>
+    <dimen name="video_25">25dp</dimen>
+    <dimen name="video_26">26dp</dimen>
+    <dimen name="video_28">28dp</dimen>
+    <dimen name="video_30">30dp</dimen>
+    <dimen name="video_36">36dp</dimen>
+    <dimen name="video_37">37dp</dimen>
+    <dimen name="video_40">40dp</dimen>
+    <dimen name="video_42">42dp</dimen>
+    <dimen name="video_47">47dp</dimen>
+    <dimen name="video_48">48dp</dimen>
+    <dimen name="video_50">50dp</dimen>
+    <dimen name="video_70">70dp</dimen>
+    <dimen name="video_80">80dp</dimen>
+    <dimen name="video_86">86dp</dimen>
+    <dimen name="video_100">100dp</dimen>
+    <dimen name="video_120">120dp</dimen>
+    <dimen name="video_126">126dp</dimen>
+    <dimen name="video_144">144dp</dimen>
+    <dimen name="video_154">154dp</dimen>
+    <dimen name="video_160">160dp</dimen>
+    <dimen name="video_188">188dp</dimen>
+    <dimen name="video_190">190dp</dimen>
+    <dimen name="video_250">250dp</dimen>
+
+    <dimen name="video_16sp">16sp</dimen>
+    <dimen name="video_14sp">14sp</dimen>
+    <dimen name="video_12sp">12sp</dimen>
+    <dimen name="video_10sp">10sp</dimen>
+    <dimen name="video_8sp">8sp</dimen>
+
+    <!--视频上传-->
+    <dimen name="upload_margin_start_14">14dp</dimen>
+    <dimen name="upload_margin_top_8">8dp</dimen>
+    <dimen name="upload_332">332dp</dimen>
+    <dimen name="upload_270">270dp</dimen>
+    <dimen name="upload_130">130dp</dimen>
+    <dimen name="upload_110">110dp</dimen>
+    <dimen name="upload_97">97dp</dimen>
+    <dimen name="upload_60">60dp</dimen>
+    <dimen name="upload_56">56dp</dimen>
+    <dimen name="upload_50">50dp</dimen>
+    <dimen name="upload_44">44dp</dimen>
+    <dimen name="upload_38">38dp</dimen>
+    <dimen name="upload_37">37dp</dimen>
+    <dimen name="upload_36">36dp</dimen>
+    <dimen name="upload_32">32dp</dimen>
+    <dimen name="upload_30">30dp</dimen>
+    <dimen name="upload_21">21dp</dimen>
+    <dimen name="upload_12">12dp</dimen>
+    <dimen name="upload_10">10dp</dimen>
+
+
+    <dimen name="upload_14sp">14sp</dimen>
+
+    <dimen name="push_8">8dp</dimen>
+    <dimen name="push_11">11dp</dimen>
+    <dimen name="push_10">10dp</dimen>
+    <dimen name="push_14">14dp</dimen>
+    <dimen name="push_18">18dp</dimen>
+    <dimen name="push_19">19dp</dimen>
+    <dimen name="push_20">20dp</dimen>
+    <dimen name="push_21">21dp</dimen>
+    <dimen name="push_22">22dp</dimen>
+    <dimen name="push_24">24dp</dimen>
+    <dimen name="push_25">25dp</dimen>
+    <dimen name="push_26">26dp</dimen>
+    <dimen name="push_27">27dp</dimen>
+    <dimen name="push_28">28dp</dimen>
+    <dimen name="push_30">30dp</dimen>
+    <dimen name="push_32">32dp</dimen>
+    <dimen name="push_33">33dp</dimen>
+    <dimen name="push_34">34dp</dimen>
+    <dimen name="push_35">35dp</dimen>
+    <dimen name="push_37">37dp</dimen>
+    <dimen name="push_40">40dp</dimen>
+    <dimen name="push_42">42dp</dimen>
+    <dimen name="push_44">44dp</dimen>
+    <dimen name="push_45">45dp</dimen>
+    <dimen name="push_46">46dp</dimen>
+    <dimen name="push_49">49dp</dimen>
+    <dimen name="push_52">52dp</dimen>
+    <dimen name="push_53">53dp</dimen>
+    <dimen name="push_60">60dp</dimen>
+    <dimen name="push_62">62dp</dimen>
+    <dimen name="push_64">64dp</dimen>
+    <dimen name="push_69">69dp</dimen>
+    <dimen name="push_70">70dp</dimen>
+    <dimen name="push_80">80dp</dimen>
+    <dimen name="push_85">85dp</dimen>
+    <dimen name="push_86">86dp</dimen>
+    <dimen name="push_100">100dp</dimen>
+    <dimen name="push_102">102dp</dimen>
+    <dimen name="push_105">105dp</dimen>
+    <dimen name="push_106">106dp</dimen>
+    <dimen name="push_109">109dp</dimen>
+    <dimen name="push_123">123dp</dimen>
+    <dimen name="push_133">133dp</dimen>
+    <dimen name="push_150">150dp</dimen>
+    <dimen name="push_152">152dp</dimen>
+    <dimen name="push_154">154dp</dimen>
+    <dimen name="push_170">170dp</dimen>
+    <dimen name="push_216">216dp</dimen>
+    <dimen name="push_173">173dp</dimen>
+    <dimen name="push_184">184dp</dimen>
+    <dimen name="push_185">185dp</dimen>
+    <dimen name="push_186">186dp</dimen>
+    <dimen name="push_190">190dp</dimen>
+    <dimen name="push_240">240dp</dimen>
+    <dimen name="push_247">247dp</dimen>
+    <dimen name="push_252">252dp</dimen>
+    <dimen name="push_266">266dp</dimen>
+    <dimen name="push_284">284dp</dimen>
+    <dimen name="push_300">300dp</dimen>
+    <dimen name="push_310">310dp</dimen>
+    <dimen name="push_312">312dp</dimen>
+    <dimen name="push_351">351dp</dimen>
+
+    <dimen name="push_18sp">18sp</dimen>
+    <dimen name="push_16sp">16sp</dimen>
+    <dimen name="push_14sp">14sp</dimen>
+    <dimen name="push_12sp">12sp</dimen>
+    <dimen name="push_10sp">10sp</dimen>
+
+    <dimen name="weplayer_controller_text_size">16sp</dimen>
+    <dimen name="weplayer_default_spacing">10dp</dimen>
+    <dimen name="weplayer_controller_seekbar_size_n">14dp</dimen>
+    <dimen name="weplayer_controller_time_text_size">14sp</dimen>
+
+
+
+    <!--视频上传-->
+    <dimen name="icon_5">5dp</dimen>
+    <dimen name="upload_271">271dp</dimen>
+    <dimen name="upload_120">120dp</dimen>
+    <dimen name="upload_45">45dp</dimen>
+    <dimen name="upload_14">14dp</dimen>
+    <dimen name="upload_12sp">12sp</dimen>
+    <dimen name="upload_16sp">16sp</dimen>
+    <dimen name="upload_18sp">18sp</dimen>
+
+
+    <!-- 短视频 -->
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp12">12dp</dimen>
+    <dimen name="dp13">13dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="dp17">17dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="dp77">77dp</dimen>
+    <dimen name="dp64">64dp</dimen>
+    <dimen name="sp12">12sp</dimen>
+
+    <!-- 编辑页面 -->
+    <dimen name="edit_bottom_layout_height">213dp</dimen>
+    <dimen name="edit_titleBar_height">64dp</dimen>
+    <dimen name="tablayout_text_size">12sp</dimen>
+
+    <!-- 水印 -->
+    <dimen name="edit_waterMark_width">63dp</dimen>
+    <dimen name="edit_waterMark_height">57dp</dimen>
+
+    <!-- 标题栏字体 -->
+    <dimen name="title_textSize">16sp</dimen>
+
+    <!-- 统一规范 -->
+    <dimen name="title_icon_back_width">10dp</dimen>
+    <dimen name="title_icon_back_height">17dp</dimen>
+    <dimen name="select_recycle_marginLeftAndRight">10dp</dimen>
+    <dimen name="select_item_between">5dp</dimen>
+    <dimen name="select_item_start_end">3dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toolBarHeight">48dp</dimen>
+
+    <dimen name="actionBarHeight">45dp</dimen>
+    <dimen name="backPressIconSize">26dp</dimen>
+    <dimen name="iconMargin">12dp</dimen>
+    <dimen name="titleTextSize">18sp</dimen>
+</resources>

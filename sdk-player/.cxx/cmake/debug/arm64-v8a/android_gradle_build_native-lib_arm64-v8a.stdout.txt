@@ -1,0 +1,1 @@
+ninja: Entering directory `/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/arm64-v8a'

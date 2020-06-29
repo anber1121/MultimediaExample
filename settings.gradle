@@ -1,0 +1,10 @@
+include ':sdk-player'
+include ':sdk-openglrecord'
+include ':sdk-voicechange'
+include ':module-webrtc'
+include ':module-work'
+include ':module-rtmp'
+include ':sdk-rtmp'
+include ':library-base'
+include ':app'
+rootProject.name = "MultimediaExample"

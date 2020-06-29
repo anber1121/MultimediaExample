@@ -1,0 +1,3 @@
+/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/.cxx/cmake/debug/arm64-v8a/CMakeFiles/yuv_utils.dir

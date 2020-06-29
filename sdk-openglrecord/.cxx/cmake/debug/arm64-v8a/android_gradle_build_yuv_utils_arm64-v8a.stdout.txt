@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/.cxx/cmake/debug/arm64-v8a'
+[1/1] Linking CXX shared library /Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/build/intermediates/cmake/debug/obj/arm64-v8a/libyuv_utils.so

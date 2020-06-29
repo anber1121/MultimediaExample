@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <NewTitleBa
+        android:id="@+id/create_live_room_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:center_text="@string/create_live_room"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_bg_color="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_live_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/upload_margin_start_14"
+        android:layout_marginTop="@dimen/upload_margin_top_8"
+        android:includeFontPadding="false"
+        android:text="@string/live_room_name"
+        android:textColor="@color/white_20"
+        android:textSize="@dimen/hw_home_live_14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/create_live_room_title" />
+
+    <EditText
+        android:id="@+id/ed_live_room_text"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/upload_38"
+        android:layout_marginTop="@dimen/dp12"
+        android:layout_marginEnd="@dimen/upload_14"
+        android:background="@drawable/edit_live_room_bg"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:hint="@string/live_input_room_name"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingStart="@dimen/dp10"
+        android:singleLine="true"
+        android:textColor="@color/white_0"
+        android:textColorHint="@color/white_90"
+        android:textSize="@dimen/hw_home_live_14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_live_room"
+        app:layout_constraintTop_toBottomOf="@id/tv_live_room" />
+
+    <Button
+        android:id="@+id/btn_begin_live"
+        android:layout_width="@dimen/upload_270"
+        android:layout_height="@dimen/upload_44"
+        android:layout_marginBottom="@dimen/upload_30"
+        android:background="@drawable/selector_begin_live_bg"
+        android:enabled="false"
+        android:text="@string/live_start"
+        android:textColor="@color/white_90"
+        android:textSize="@dimen/sp16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

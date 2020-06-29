@@ -1,0 +1,7 @@
+# ninja log v5
+0	12	0	clean	88f590fabd856efc
+0	11	0	clean	88f590fabd856efc
+0	14	0	clean	88f590fabd856efc
+0	11341	1591945127	CMakeFiles/yuv_utils.dir/yuv_utils.cpp.o	54bc153329a7640e
+11360	12142	1591945128	/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/build/intermediates/cmake/debug/obj/armeabi-v7a/libyuv_utils.so	ab297d1c94bc2303
+0	21	0	clean	88f590fabd856efc

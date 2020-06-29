@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">MultimediaExample</string>
+
+    <string name="res_live">直播</string>
+    <string name="res_vod">短视频</string>
+    <string name="res_find">发现</string>
+    <string name="res_like">喜欢</string>
+    <string name="res_works">作品</string>
+    <string name="res_submit"><u>注册</u></string>
+
+    <string name="already_copy_to_pasteboard">已经复制地址到黏贴板</string>
+    <string name="send_message_hint">快来说点什么吧</string>
+    <string name="send_message">发送</string>
+    <string name="send_number">0/300</string>
+
+    //mvvm相关
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">发生意外错误。\n抱歉，给您带来不便。</string>
+    <string name="customactivityoncrash_error_activity_restart_app">重新启动</string>
+    <string name="customactivityoncrash_error_activity_close_app">关闭程序</string>
+    <string name="customactivityoncrash_error_activity_error_details">错误日志</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">错误详情</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">关闭</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">复制日志</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">复制日志</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">错误信息</string>
+
+    <string name="initArsence">人脸初始化正在进行，请稍后</string>
+
+    <!--live-->
+    <string name="live_room_name">直播间名称</string>
+    <string name="live_start">开始直播</string>
+    <string name="live_input_room_name">请输入直播间名称</string>
+    <string name="live_hd">高清低码</string>
+    <string name="live_clarity">清晰度：高清</string>
+    <string name="live_bitrate">码率:0kbp/s</string>
+    <string name="live_frame_rate">帧率:0f/s</string>
+    <string name="live_watcher">0人观看</string>
+
+    <string name="hw_live">直播</string>
+    <string name="hw_live_room">直播间</string>
+    <string name="hw_live_plug_flow">直播推流</string>
+    <string name="hw_live_screen_record">录屏推流</string>
+    <string name="hw_player">播放器</string>
+    <string name="hw_live_player">直播播放器</string>
+    <string name="hw_vod_player">点播播放器</string>
+    <string name="hw_short_player">短视频</string>
+    <string name="hw_video_capture">视频拍摄</string>
+    <string name="hw_video_edit">视频编辑</string>
+    <string name="hw_trill_effects">抖音特效</string>
+    <string name="hw_particle_effects">粒子特效</string>
+    <string name="hw_virtual_background_matting">虚拟背景抠像</string>
+    <string name="hw_picture_in_picture_editor">画中画编辑</string>
+    <string name="hw_upload_video">视频上传</string>
+
+    <string name="list_live_room_empty">当前没有进行的直播\n请点击新建直播间开始直播</string>
+    <string name="create_live_room">新建直播间</string>
+
+    <string name="hw_cloud_video">华为视频云</string>
+
+    <!--upload-->
+    <string name="upload">上传</string>
+    <string name="upload_video">视频上传</string>
+    <string name="upload_video_name">视频名称</string>
+    <string name="upload_input_video_name">请输入视频名称</string>
+    <string name="upload_video_description">视频描述</string>
+    <string name="upload_input_video_description">请输入视频描述</string>
+    <string name="upload_preview_video">预览</string>
+    <string name="upload_cover_video">封面</string>
+
+    <!--update-->
+    <string name="android_auto_update_dialog_checking">正在检查版本</string>
+    <string name="android_auto_update_toast_no_new_update">已经是最新版本</string>
+    <string name="android_auto_update_download_progress">正在下载:%1$d%%</string>
+    <string name="android_auto_update_notify_ticker">发现新版本,点击进行升级</string>
+    <string name="android_auto_update_dialog_title">发现新版本</string>
+    <string name="android_auto_update_dialog_btn_download">立即下载</string>
+    <string name="android_auto_update_dialog_btn_cancel">以后再说</string>
+
+    <string name="msg_camera_framework_bug">相机被占用或没有相机权限，请检查</string>
+    <string name="button_ok">退出</string>
+    <string name="scan_code">扫一扫</string>
+    <string name="open_flash">打开闪光灯</string>
+    <string name="close_flash">关闭闪光灯</string>
+    <string name="gallery">相册</string>
+    <string name="scan_failed_tip">图片解析失败，换个图片试试.</string>
+
+    <string name="start_play">恢复播放</string>
+    <string name="load_play">播放加载</string>
+    <string name="init_play">播放器初始化</string>
+    <string name="get_address">获取播放地址</string>
+    <string name="prepare_async">准备播放</string>
+    <string name="execution_play">执行播放</string>
+    <string name="pause_play">暂停播放</string>
+    <string name="stop_play">停止播放</string>
+    <string name="finish_play">播放完成</string>
+    <string name="move_play">视频快进</string>
+    <string name="error_play">播放失败</string>
+    <string name="prepared">准备完成 开始播放</string>
+    <string name="reset_play">重置播放</string>
+
+    <string name="load_end">没有更多数据</string>
+    <string name="load_failed">加载失败，请点我重试</string>
+    <string name="loading">正在加载中...</string>
+</resources>

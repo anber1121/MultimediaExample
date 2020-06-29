@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.huawei.component.widget.FrameAnimationImageView
+        android:id="@+id/pull_up_loading"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:src="@mipmap/img_refresh_active"
+        android:visibility="visible" />
+
+    <com.huawei.component.widget.FrameAnimationImageView
+        android:id="@+id/pull_up_failed"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/pull_up_end"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/load_end"
+            android:textColor="@android:color/darker_gray" />
+    </FrameLayout>
+
+</FrameLayout>
+

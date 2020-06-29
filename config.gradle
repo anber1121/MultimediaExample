@@ -1,0 +1,94 @@
+ext {
+    //android开发版本配置
+    android = [
+            compileSdkVersion     : 29,
+            buildToolsVersion     : "29.0.3",
+            fastvideoapplicationId: "com.huawei.weshow",
+            kitapplicationId      : "com.huawei.videocloud.sdkdemo",
+            minSdkVersion         : 18,
+            targetSdkVersion      : 25,
+            fastVideoVersionCode  : 58,
+            fastVideoVersionName  : "1.2.5",
+            toolKitVersionCode    : 7,
+            toolKitVersionName    : "1.1.6",
+    ]
+    //version配置
+    versions = [
+            "support-version": "28.0.0",
+            "junit-version"  : "4.12",
+    ]
+    //support配置
+    support = [
+            "constraint-layout"       : 'com.android.support.constraint:constraint-layout:1.1.3',
+            'support-v4'              : "com.android.support:support-v4:${versions["support-version"]}",
+            'appcompat-v7'            : "com.android.support:appcompat-v7:${versions["support-version"]}",
+            'recyclerview-v7'         : "com.android.support:recyclerview-v7:${versions["support-version"]}",
+            'support-v13'             : "com.android.support:support-v13:${versions["support-version"]}",
+            'support-fragment'        : "com.android.support:support-fragment:${versions["support-version"]}",
+            'design'                  : "com.android.support:design:${versions["support-version"]}",
+            'animated-vector-drawable': "com.android.support:animated-vector-drawable:${versions["support-version"]}",
+            'junit'                   : "junit:junit:${versions["junit-version"]}",
+            'android-junit'           : "com.android.support.test:runner:0.2",
+            'espresso-core'           : "com.android.support.test.espresso:espresso-core:2.1",
+    ]
+    //依赖第三方配置
+    dependencies = [
+            //MVVMHabit
+            "MVVMHabit"                            : "com.github.goldze:MVVMHabit:3.1.4",
+            //阿里路由框架
+            "arouter-api"                          : "com.alibaba:arouter-api:1.4.1",
+            "fastjson"                             : "com.alibaba:fastjson:1.2.62",
+            "eventbus"                             : "org.greenrobot:eventbus:3.1.1",
+            "greendao"                             : "org.greenrobot:greendao:3.1.0",
+            "greendao-generator"                   : "org.greenrobot:greendao-generator:3.1.0",
+            "arouter-compiler"                     : "com.alibaba:arouter-compiler:1.2.2",
+            "SmartRefreshLayout"                   : "com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-beta-1",
+
+
+            "tkrefreshlayout"                      : "com.lcodecorex:tkrefreshlayout:1.0.7",
+            "rxjava"                               : "io.reactivex.rxjava2:rxjava:2.2.3",
+            "rxandroid"                            : "io.reactivex.rxjava2:rxandroid:2.1.0",
+            //rx系列与View生命周期同步
+            "rxlifecycle"                          : "com.trello.rxlifecycle2:rxlifecycle:2.2.2",
+            "rxlifecycle-components"               : "com.trello.rxlifecycle2:rxlifecycle-components:2.2.2",
+            //rxbinding
+            "rxbinding"                            : "com.jakewharton.rxbinding2:rxbinding:2.1.1",
+            //rx 6.0权限请求
+//            "rxpermissions"                        : "com.github.tbruyelle:rxpermissions:0.10.2",
+            //network
+            "okhttp"                               : "com.squareup.okhttp3:okhttp:3.14.2",
+            "retrofit"                             : "com.squareup.retrofit2:retrofit:2.5.0",
+            "converter-gson"                       : "com.squareup.retrofit2:converter-gson:2.4.0",
+            "adapter-rxjava"                       : "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+            //glide图片加载
+            "glide"                                : "com.github.bumptech.glide:glide:4.8.0",
+            "glide-compiler"                       : "com.github.bumptech.glide:compiler:4.8.0",
+            //json解析
+            "gson"                                 : "com.google.code.gson:gson:2.8.5",
+            //推流后台交互需要添加
+            "javawebsocket"                       : "org.java-websocket:Java-WebSocket:1.3.8",
+
+            //material-dialogs
+            "material-dialogs-core"                : "com.afollestad.material-dialogs:core:0.9.4.5",
+            "material-dialogs-commons"             : "com.afollestad.material-dialogs:commons:0.9.4.5",
+            //recyclerview的databinding套装
+            "bindingcollectionadapter"             : "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:4.0.0",
+            "bindingcollectionadapter-recyclerview": "me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:4.0.0",
+            //Google AAC
+            "lifecycle-extensions"                 : "android.arch.lifecycle:extensions:1.1.1",
+            "lifecycle-compiler"                   : "android.arch.lifecycle:compiler:1.1.1",
+            //圆角控件
+            "roundedimageview"                     : "com.makeramen:roundedimageview:2.2.1",
+            //百分比布局
+            "percent"                              : "com.android.support:percent:27.0.2",
+
+            //动图框架
+            "droidsonroidsgif"                    : "pl.droidsonroids.gif:android-gif-drawable:1.2.2",
+
+            //蒲公英二维码
+            "pgyersdk"                            : "com.pgyersdk:sdk:3.0.10"
+
+    ]
+}
+
+

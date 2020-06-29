@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/.cxx/cmake/release/arm64-v8a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_utils_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC   -o CMakeFiles/yuv_utils.dir/yuv_utils.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/src/main/cpp/yuv_utils.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/src/main/cpp/yuv_utils.cpp"
+}
+]

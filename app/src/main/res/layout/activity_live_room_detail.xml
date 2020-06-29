@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ResourceName">
+
+    <com.huawei.weplayer.weplayer.DefinitionWeVideoView
+        android:id="@+id/dwv_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_live_bg"
+        android:layout_width="@dimen/push_170"
+        android:layout_height="@dimen/push_40"
+        android:layout_marginStart="@dimen/upload_margin_start_14"
+        android:layout_marginTop="@dimen/push_26"
+        android:background="@drawable/live_detail_bg"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.anber.multimediaexample.widget.CircleImageView
+        android:id="@+id/circle_view_live"
+        android:layout_width="@dimen/push_40"
+        android:layout_height="@dimen/push_40"
+        android:src="@color/black_40"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="4px"
+        app:layout_constraintBottom_toBottomOf="@id/iv_live_bg"
+        app:layout_constraintStart_toStartOf="@id/iv_live_bg" />
+
+    <TextView
+        android:id="@+id/tv_live_room_detail_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/hw_home_live_14sp"
+        app:layout_constraintEnd_toEndOf="@id/iv_live_bg"
+        app:layout_constraintStart_toEndOf="@id/circle_view_live"
+        app:layout_constraintTop_toTopOf="@id/iv_live_bg"
+        tools:text="sadsad" />
+
+    <TextView
+        android:id="@+id/tv_room_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingEnd="@dimen/dp_10"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp12"
+        app:layout_constraintEnd_toEndOf="@id/iv_live_bg"
+        app:layout_constraintStart_toStartOf="@id/tv_live_room_detail_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_live_room_detail_name"
+        tools:text="sadsad" />
+
+    <ImageView
+        android:id="@+id/iv_watcher_bg"
+        android:layout_width="@dimen/push_102"
+        android:layout_height="@dimen/upload_30"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="@drawable/watch_number_live_bg"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@id/iv_live_bg"
+        app:layout_constraintTop_toBottomOf="@id/iv_live_bg" />
+
+    <ImageView
+        android:id="@+id/iv_watcher_icon"
+        android:layout_width="@dimen/dp12"
+        android:layout_height="@dimen/dp12"
+        android:layout_marginStart="@dimen/dp10"
+        android:src="@mipmap/icon_eye"
+        app:layout_constraintBottom_toBottomOf="@id/iv_watcher_bg"
+        app:layout_constraintStart_toStartOf="@id/iv_watcher_bg"
+        app:layout_constraintTop_toTopOf="@id/iv_watcher_bg" />
+
+    <TextView
+        android:id="@+id/tv_watcher_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:includeFontPadding="false"
+        android:text="@string/live_watcher"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp12"
+        app:layout_constraintBottom_toBottomOf="@id/iv_watcher_icon"
+        app:layout_constraintStart_toEndOf="@id/iv_watcher_icon" />
+
+    <ImageView
+        android:id="@+id/iv_live_close"
+        android:layout_width="@dimen/upload_21"
+        android:layout_height="@dimen/upload_21"
+        android:layout_marginTop="@dimen/upload_36"
+        android:layout_marginEnd="@dimen/dp12"
+        android:src="@mipmap/icon_close"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/iv_barrage"
+        android:layout_width="@dimen/push_35"
+        android:layout_height="@dimen/push_35"
+        android:layout_marginStart="@dimen/upload_margin_start_14"
+        android:layout_marginBottom="@dimen/dp20"
+        android:background="@drawable/selector_barrage_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/iv_chat"
+        android:layout_width="@dimen/push_35"
+        android:layout_height="@dimen/push_35"
+        android:layout_marginStart="@dimen/dp10"
+        android:background="@mipmap/icon_message_normal"
+        app:layout_constraintStart_toEndOf="@id/iv_barrage"
+        app:layout_constraintTop_toTopOf="@id/iv_barrage" />
+
+    <ImageView
+        android:id="@+id/iv_voice"
+        android:layout_width="@dimen/push_40"
+        android:layout_height="@dimen/push_40"
+        android:layout_marginBottom="24dp"
+        android:src="@mipmap/icon_microphone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/iv_log"
+        android:layout_width="@dimen/push_35"
+        android:layout_height="@dimen/push_35"
+        android:layout_marginEnd="@dimen/upload_margin_start_14"
+        android:layout_marginBottom="@dimen/push_20"
+        android:background="@mipmap/icon_log_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/iv_hd"
+        android:layout_width="@dimen/push_35"
+        android:layout_height="@dimen/push_35"
+        android:layout_marginEnd="@dimen/dp10"
+        android:background="@mipmap/icon_hd_normal"
+        app:layout_constraintBottom_toBottomOf="@id/iv_log"
+        app:layout_constraintEnd_toStartOf="@id/iv_log" />
+
+    <Button
+        android:id="@+id/iv_landscape"
+        android:layout_width="@dimen/push_35"
+        android:layout_height="@dimen/push_35"
+        android:layout_marginEnd="@dimen/dp10"
+        android:background="@mipmap/icon_landscape_normal"
+        app:layout_constraintBottom_toBottomOf="@id/iv_hd"
+        app:layout_constraintEnd_toStartOf="@id/iv_hd" />
+
+    <TextView
+        android:id="@+id/tv_hd_low_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:includeFontPadding="false"
+        android:text="高清低码"
+        android:textColor="@color/white"
+        android:textSize="@dimen/hw_home_live_14sp"
+        app:layout_constraintBottom_toBottomOf="@id/btn_turn_or_off_hd"
+        app:layout_constraintEnd_toStartOf="@id/btn_turn_or_off_hd"
+        app:layout_constraintTop_toTopOf="@id/btn_turn_or_off_hd" />
+
+    <Button
+        android:id="@+id/btn_turn_or_off_hd"
+        android:layout_width="14dp"
+        android:layout_height="@dimen/upload_10"
+        android:layout_marginEnd="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp13"
+        android:background="@drawable/btn_turn_or_off_hd"
+        app:layout_constraintBottom_toTopOf="@id/iv_log"
+        app:layout_constraintEnd_toEndOf="@id/iv_log" />
+
+    <TextView
+        android:id="@+id/tv_clarity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/live_clarity"
+        android:textColor="@color/white"
+        android:textSize="@dimen/push_10sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_hd_low_code"
+        app:layout_constraintStart_toStartOf="@id/tv_hd_low_code" />
+
+    <TextView
+        android:id="@+id/tv_bitrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/live_bitrate"
+        android:textColor="@color/white"
+        android:textSize="@dimen/push_10sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_clarity"
+        app:layout_constraintStart_toStartOf="@id/tv_clarity" />
+
+    <TextView
+        android:id="@+id/tv_frame_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/live_frame_rate"
+        android:textColor="@color/white"
+        android:textSize="@dimen/push_10sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_bitrate"
+        app:layout_constraintStart_toStartOf="@id/tv_bitrate" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_audience_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hw_home_live_margin_top_76"
+        android:layout_marginEnd="@dimen/upload_margin_start_14"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_barrage"
+        android:layout_width="200dp"
+        android:layout_height="@dimen/push_190"
+        android:layout_marginBottom="@dimen/upload_10"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/iv_barrage"
+        app:layout_constraintStart_toStartOf="@id/iv_barrage"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

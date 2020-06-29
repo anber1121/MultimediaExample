@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="text_99">#66999999</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="textColor">#333333</color>
+    <color name="appBackColor">#F4F3F3</color>
+
+    <color name="ui_main_bg">#FF242831</color>
+    <color name="ui_me_bg">#2D323D</color>
+    <color name="ui_send_comment_bg">#99383E4D</color>
+    <color name="ui_add_video_bg">#383E4D</color>
+    <color name="ui_select_title">#FFFFFF</color>
+    <color name="ui_comment_tv">#4DFFFFFF</color>
+    <color name="ui_like_count">#CCFFFFFF</color>
+    <color name="ui_select_indicator">#FFFFFF</color>
+    <color name="ui_unselect_title">#99FFFFFF</color>
+    <color name="ui_login_button">#1AFFFFFF</color>
+    <color name="ui_login_highlight_button">#3488FF</color>
+    <color name="ui_view_line">#33000000</color>
+    <color name="ui_left_gradient">#3488FF</color>
+    <color name="ui_right_gradient">#143AF2</color>
+
+    <!--sheji-->
+    <color name="user_bk">#242831</color>
+    <color name="ui_popwindow">#23262F</color>
+
+
+    <color name="ed_barrage_bg">#f5f5f5</color>
+    <color name="definition">#3487ff</color>
+    <color name="white_22">#ccffffff</color>
+
+    <color name="send_bg">#3487ff</color>
+    <color name="send_ed_bg">#e0e0e0</color>
+
+
+    <color name="white_0">#FFFFFFFF</color>
+    <color name="white_90">#1Affffff</color>
+    <color name="white_11">#E6ffffff</color>
+    <color name="white_20">#CCffffff</color>
+    <color name="white_30">#B3ffffff</color>
+    <color name="white_50">#66ffffff</color>
+    <color name="white_80">#33ffffff</color>
+    <color name="black_90">#1A000000</color>
+    <color name="black_60">#66000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#99000000</color>
+    <color name="black_30">#B3000000</color>
+    <color name="black_20">#CC000000</color>
+    <color name="black_10">#E6000000</color>
+    <color name="btn_create_live_room">#3487ff</color>
+
+    <color name="weplayer_theme_color">#39C5BB</color>
+    <color name="weplayer_background_color">#96000000</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white_10">#E6ffffff</color>
+
+    <color name="contents_text">#000000</color>
+    <color name="encode_view">#ffffff</color>
+    <color name="possible_result_points">#ffbd21</color>
+    <color name="result_minor_text">#c0c0c0</color>
+    <color name="result_points">#99cc00</color>
+    <color name="result_text">#ffffff</color>
+    <color name="result_view">#000000</color>
+    <color name="status_text">#ffffff</color>
+    <color name="viewfinder_mask">#50000000</color>
+    <color name="react">#ffffff</color>
+    <color name="scanLineColor">#ffffff</color>
+    <color name="defaultColor">#ffffff</color>
+</resources>

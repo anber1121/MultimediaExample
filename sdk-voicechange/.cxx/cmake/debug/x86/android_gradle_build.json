@@ -1,0 +1,46 @@
+{
+  "stringTable": {
+    "0": "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dvoice_change_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "voice_change-Debug-x86": {
+      "buildCommand": "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/.cxx/cmake/debug/x86\" voice_change",
+      "buildType": "debug",
+      "toolchain": "127700651",
+      "abi": "x86",
+      "artifactName": "voice_change",
+      "files": [
+        {
+          "src": "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/src/main/cpp/voice_changer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/build/intermediates/cmake/debug/obj/x86/libvoice_change.so",
+      "runtimeFiles": [
+        "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/src/main/cpp/../jniLibs/x86/libfmod.so",
+        "/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/src/main/cpp/../jniLibs/x86/libfmodL.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "127700651": {
+      "cppCompilerExecutable": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

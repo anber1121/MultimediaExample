@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a'
+ninja: no work to do.

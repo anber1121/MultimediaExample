@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="162dp"
+    android:background="@drawable/live_bg">
+
+    <ImageView
+        android:id="@+id/iv_live_list"
+        android:layout_width="0dp"
+        android:layout_height="162dp"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.anber.multimediaexample.widget.CircleImageView
+        android:id="@+id/circle_view"
+        android:layout_width="@dimen/dp20"
+        android:layout_height="@dimen/dp20"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@color/black_40"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_live_room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:includeFontPadding="false"
+        android:lines="1"
+        android:maxLength="20"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp12"
+        app:layout_constraintBottom_toBottomOf="@id/circle_view"
+        app:layout_constraintStart_toEndOf="@id/circle_view"
+        app:layout_constraintTop_toTopOf="@id/circle_view" />
+
+    <TextView
+        android:id="@+id/tv_watch_number_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="6dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="dsadsada" />
+
+    <ImageView
+        android:id="@+id/iv_watcher"
+        android:layout_width="@dimen/dp12"
+        android:layout_height="@dimen/dp12"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/icon_eye_big"
+        app:layout_constraintBottom_toBottomOf="@id/tv_watch_number_1"
+        app:layout_constraintEnd_toStartOf="@id/tv_watch_number_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

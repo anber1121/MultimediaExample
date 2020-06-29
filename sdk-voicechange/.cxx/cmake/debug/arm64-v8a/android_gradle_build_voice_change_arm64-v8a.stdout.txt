@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/.cxx/cmake/debug/arm64-v8a'
+ninja: no work to do.

@@ -1,0 +1,139 @@
+[
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/native-lib.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/native-lib.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/demux/IDemux.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/demux/IDemux.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/demux/IDemux.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/demux/FFDemux.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/demux/FFDemux.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/demux/FFDemux.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/decode/IDecode.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/decode/IDecode.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/decode/IDecode.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/decode/FFDecode.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/decode/FFDecode.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/decode/FFDecode.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/resample/IResample.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/resample/IResample.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/resample/IResample.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/resample/FFResample.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/resample/FFResample.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/resample/FFResample.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/audio/IAudioPlay.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/audio/IAudioPlay.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/audio/IAudioPlay.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/audio/SLAudioPlay.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/audio/SLAudioPlay.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/audio/SLAudioPlay.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/video/GLVideoView.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/video/GLVideoView.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/video/GLVideoView.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/video/IVideoView.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/video/IVideoView.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/video/IVideoView.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/opengl/XEGL.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/opengl/XEGL.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/opengl/XEGL.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/opengl/XShader.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/opengl/XShader.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/opengl/XShader.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/opengl/XTexture.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/opengl/XTexture.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/opengl/XTexture.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/builder/IPlayerBuilder.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/builder/IPlayerBuilder.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/builder/IPlayerBuilder.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/builder/FFPlayerBuilder.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/builder/FFPlayerBuilder.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/builder/FFPlayerBuilder.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/thread/XThread.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/thread/XThread.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/thread/XThread.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/thread/IObserver.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/thread/IObserver.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/thread/IObserver.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/XLog.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/XLog.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/XLog.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/XData.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/XData.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/XData.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/XParameter.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/XParameter.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/XParameter.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/IPlayer.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/IPlayer.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/IPlayer.cpp"
+},
+
+{
+  "directory": "/Users/weshow/work/huya/MultimediaExample/sdk-player/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS -I/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/IPlayerProxy.cpp.o -c /Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/IPlayerProxy.cpp",
+  "file": "/Users/weshow/work/huya/MultimediaExample/sdk-player/src/main/cpp/IPlayerProxy.cpp"
+}
+]

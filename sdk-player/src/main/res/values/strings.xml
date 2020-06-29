@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sdk-sdkplayer</string>
+
+    <string name="str_url">播放地址:</string>
+    <string name="str_play">播放</string>
+    <string name="str_video_type">视频类型:</string>
+    <string name="str_vod">点播</string>
+    <string name="str_live">直播</string>
+</resources>

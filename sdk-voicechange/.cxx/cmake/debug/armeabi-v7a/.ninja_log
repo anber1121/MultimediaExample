@@ -1,0 +1,7 @@
+# ninja log v5
+0	7	0	clean	88f590fabd856efc
+0	5	0	clean	88f590fabd856efc
+0	5	0	clean	88f590fabd856efc
+0	262	1591945135	CMakeFiles/voice_change.dir/voice_changer.cpp.o	b41a1a1f63cfdd27
+262	357	1591945135	/Users/weshow/work/huya/MultimediaExample/sdk-voicechange/build/intermediates/cmake/debug/obj/armeabi-v7a/libvoice_change.so	85befb0786e7d6b8
+1	7	0	clean	88f590fabd856efc

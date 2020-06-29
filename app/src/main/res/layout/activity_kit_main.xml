@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.goldze.base.base.BaseViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/img_bg_home">
+
+        <TextView
+            android:id="@+id/tv_hw_cloud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/hw_home_margin_start_12"
+            android:layout_marginTop="@dimen/hw_home_margin_top_95"
+            android:includeFontPadding="false"
+            android:text="@string/hw_cloud_video"
+            android:textColor="@color/white_0"
+            android:textSize="@dimen/hw_home_22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/home_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hw_home_live_margin_top_76"
+            android:includeFontPadding="false"
+            android:text="@string/hw_live"
+            android:textColor="@color/white_0"
+            android:textSize="@dimen/hw_home_live_14sp"
+            app:layout_constraintStart_toStartOf="@id/tv_hw_cloud"
+            app:layout_constraintTop_toBottomOf="@id/tv_hw_cloud" />
+
+        <LinearLayout
+            android:id="@+id/ll_live_room"
+            android:layout_width="@dimen/upload_110"
+            android:layout_height="@dimen/upload_60"
+            android:layout_marginTop="@dimen/upload_10"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="@id/home_live"
+            app:layout_constraintTop_toBottomOf="@id/home_live">
+
+            <ImageView
+                android:id="@+id/iv_live_room"
+                android:layout_width="@dimen/upload_21"
+                android:layout_height="@dimen/upload_21"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/icon_studio" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:includeFontPadding="false"
+                android:text="@string/hw_live_room"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/hw_home_live_12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_hw_line"
+            android:layout_width="2px"
+            android:layout_height="@dimen/upload_50"
+            android:layout_marginLeft="6dp"
+            android:background="@color/white_90"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toBottomOf="@id/ll_live_room"
+            app:layout_constraintStart_toEndOf="@id/ll_live_room"
+            app:layout_constraintTop_toTopOf="@id/ll_live_room" />
+
+        <LinearLayout
+            android:id="@+id/ll_live_plug_flow"
+            android:layout_width="@dimen/upload_110"
+            android:layout_height="@dimen/upload_60"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/upload_10"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@id/tv_hw_line"
+            app:layout_constraintTop_toBottomOf="@id/home_live">
+
+            <ImageView
+                android:id="@+id/iv_live_plug_flow"
+                android:layout_width="@dimen/upload_21"
+                android:layout_height="@dimen/upload_21"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/icon_traffic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/upload_margin_top_8"
+                android:includeFontPadding="false"
+                android:text="@string/hw_live_plug_flow"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/hw_home_live_12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_hw_line2"
+            android:layout_width="2px"
+            android:layout_height="@dimen/upload_50"
+            android:layout_marginLeft="6dp"
+            android:background="@color/white_90"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toBottomOf="@id/ll_live_plug_flow"
+            app:layout_constraintStart_toEndOf="@id/ll_live_plug_flow"
+            app:layout_constraintTop_toTopOf="@id/ll_live_plug_flow" />
+
+        <LinearLayout
+            android:id="@+id/ll_live_screen_record"
+            android:layout_width="@dimen/upload_110"
+            android:layout_height="@dimen/upload_60"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/upload_10"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@id/ll_live_plug_flow"
+            app:layout_constraintTop_toBottomOf="@id/home_live">
+            <!--android:visibility="gone"-->
+
+            <ImageView
+                android:id="@+id/iv_live_screen_record"
+                android:layout_width="@dimen/upload_21"
+                android:layout_height="@dimen/upload_21"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/screen_record" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/upload_margin_top_8"
+                android:includeFontPadding="false"
+                android:text="@string/hw_live_screen_record"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/hw_home_live_12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_hw_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/upload_10"
+            android:includeFontPadding="false"
+            android:text="@string/hw_player"
+            android:textColor="@color/white_0"
+            android:textSize="@dimen/hw_home_live_14sp"
+            app:layout_constraintStart_toStartOf="@id/ll_live_room"
+            app:layout_constraintTop_toBottomOf="@id/ll_live_room" />
+
+        <LinearLayout
+            android:id="@+id/ll_live_player"
+            android:layout_width="@dimen/upload_110"
+            android:layout_height="@dimen/upload_60"
+            android:layout_marginTop="@dimen/upload_10"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="@id/tv_hw_player"
+            app:layout_constraintTop_toBottomOf="@id/tv_hw_player">
+
+            <ImageView
+                android:id="@+id/iv_live_player"
+                android:layout_width="@dimen/upload_21"
+                android:layout_height="@dimen/upload_21"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/icon_live" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/upload_margin_top_8"
+                android:includeFontPadding="false"
+                android:text="@string/hw_live_player"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/hw_home_live_12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_hw_line_1"
+            android:layout_width="2px"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginBottom="@dimen/upload_10"
+            android:layout_marginLeft="6dp"
+            android:background="@color/white_90"
+            android:includeFontPadding="false"
+            app:layout_constraintBottom_toBottomOf="@id/ll_live_player"
+            app:layout_constraintStart_toEndOf="@id/ll_live_player"
+            app:layout_constraintTop_toTopOf="@id/ll_live_player" />
+
+        <LinearLayout
+            android:id="@+id/ll_vod_player"
+            android:layout_width="@dimen/upload_110"
+            android:layout_height="@dimen/upload_60"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/upload_10"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@id/tv_hw_line_1"
+            app:layout_constraintTop_toBottomOf="@id/tv_hw_player">
+
+            <ImageView
+                android:id="@+id/iv_vod_player"
+                android:layout_width="@dimen/upload_21"
+                android:layout_height="@dimen/upload_21"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/icon_vod" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/upload_margin_top_8"
+                android:includeFontPadding="false"
+                android:text="@string/hw_vod_player"
+                android:textColor="@color/white_50"
+                android:textSize="@dimen/hw_home_live_12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_short_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/upload_10"
+            android:includeFontPadding="false"
+            android:text="@string/hw_short_player"
+            android:textColor="@color/white_0"
+            android:textSize="@dimen/hw_home_live_14sp"
+            app:layout_constraintStart_toStartOf="@id/ll_live_player"
+            app:layout_constraintTop_toBottomOf="@id/ll_live_player" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_short_video"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_short_video" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

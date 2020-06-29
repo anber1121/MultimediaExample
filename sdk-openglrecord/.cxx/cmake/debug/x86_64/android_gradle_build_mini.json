@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/Users/weshow/Library/Android/sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yuv_utils-Debug-x86_64": {
+      "artifactName": "yuv_utils",
+      "buildCommand": "/Users/weshow/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/.cxx/cmake/debug/x86_64\" yuv_utils",
+      "abi": "x86_64",
+      "output": "/Users/weshow/work/huya/MultimediaExample/sdk-openglrecord/build/intermediates/cmake/debug/obj/x86_64/libyuv_utils.so",
+      "runtimeFiles": []
+    }
+  }
+}
